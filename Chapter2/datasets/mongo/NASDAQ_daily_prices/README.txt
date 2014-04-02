@@ -1,0 +1,1 @@
+The complete dataset can be downloaded from http://www.infochimps.com/datasets/nasdaq-exchange-daily-1970-2010-open-close-high-low-and-volume/downloads/232946

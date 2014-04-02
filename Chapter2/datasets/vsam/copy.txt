@@ -1,0 +1,20 @@
+             10 GARAGENAME	PIC X(35).
+             10 REGISTRATIONNO	PIC X(35).
+             10 ADDRESS		PIC X(35).
+             10 PAIDAMOUNT	PIC 9(8)V9(2).
+             10 BILLNO		PIC X(35).
+             10 CLAIMSTATUS	PIC X(35).
+             10 STREET		PIC X(35).
+             10 GARAGECITY	PIC X(35).
+             10 CUSTOMERID	PIC X(35).
+             10 MAKE		PIC X(35).
+             10 FIRSTNAME	PIC X(35).
+             10 MODEL		PIC X(35).
+             10 ZIP		PIC 9(5).
+             10 ENGINENO	PIC X(35).
+             10 POLICYID	PIC X(35).
+             10 CHASSISNO	PIC X(35).
+             10 CITY		PIC X(35).
+             10 PAIDDATE	PIC X(35).
+             10 LASTNAME	PIC X(35).
+

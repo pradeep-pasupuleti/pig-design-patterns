@@ -1,0 +1,9 @@
+
+10.143.2.119 64.103.161.112 - [06/Jan/1970:00:48:01 +0000] "GET /index_eth_diag.html HTTP/1.1" 200 4815 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+10.143.2.119 64.103.161.112 - [06/Jan/1970:00:48:01 +0000] "GET /general.css HTTP/1.1" 304 0 "http://64.103.161.112/index_eth_diag.html" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+10.143.2.119 64.103.161.112 - [06/Jan/1970:00:48:01 +0000] "GET /left_arrow.jpg HTTP/1.1" 304 0 "http://64.103.161.112/index_eth_diag.html" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+10.143.2.119 64.103.161.112 - [06/Jan/1970:00:48:01 +0000] "GET /right_arrow.jpg HTTP/1.1" 304 0 "http://64.103.161.112/index_eth_diag.html" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+10.143.2.119 64.103.161.112 - [06/Jan/1970:00:48:01 +0000] "GET /home.jpg HTTP/1.1" 304 0 "http://64.103.161.112/index_eth_diag.html" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+10.143.2.119 64.103.161.112 - [06/Jan/1970:00:48:02 +0000] "GET /diag.fcgi HTTP/1.1" 500 369 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+10.143.2.119 64.103.161.112 - [06/Jan/1970:00:48:03 +0000] "GET /favicon.ico HTTP/1.1" 404 345 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+10.143.2.119 64.103.161.112 - [06/Jan/1970:00:48:04 +0000] "GET /favicon.ico HTTP/1.1" 404 345 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"

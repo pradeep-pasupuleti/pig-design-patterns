@@ -1,0 +1,10 @@
+2011-01-01T00:00:00,7,1,unit 1,USD,C001,Refrigerator 180L,49
+2011-01-01T00:00:00,8,3,unit 3,INR,C001,Refrigerator 180L,76
+2011-01-01T00:00:00,6,5,unit 5 ,USD,C001,Refrigerator 180L,76
+2011-01-02T00:00:00,7,1,unit 1,USD,C001,Refrigerator 180L,92
+2011-01-02T00:00:00,8,3,unit 3,INR,C001,Refrigerator 180L,112
+2011-01-02T00:00:00,6,5,unit 5 ,USD,C001,Refrigerator 180L,56
+2011-01-01T00:00:00,8,2,unit 2,USD,C003,Air Conditioner 1T,65
+2011-01-01T00:00:00,8,4,unit 4,USD,C003,Air Conditioner 1T,64
+2011-01-02T00:00:00,8,2,unit 2,USD,C003,Air Conditioner 1T,80
+2011-01-02T00:00:00,8,4,unit 4,USD,C003,Air Conditioner 1T,72

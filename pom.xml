@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>pdp</groupId>
+  <artifactId>pdp</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>Chapter2</module>
+    <module>Chapter3</module>
+    <module>Chapter4</module>
+    <module>Chapter5</module>
+    <module>Chapter6</module>
+  </modules>
+
+  <properties>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <jdk.version>1.6</jdk.version>
+  </properties>
+
+  <repositories>
+	<repository>
+	    <id>cloudera-repo-releases</id>
+	    <url>https://repository.cloudera.com/artifactory/repo/</url>
+	</repository>
+  </repositories>
+
+  <dependencies>
+     <dependency>
+       <groupId>cb2java</groupId>
+       <artifactId>cb2java</artifactId>
+       <version>0.3.1</version>
+     </dependency>    
+
+     <dependency>
+	  <groupId>org.apache.hadoop</groupId>
+	  <artifactId>hadoop-core</artifactId>
+	  <version>0.20.2-cdh3u0</version>
+     </dependency>
+
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-common</artifactId>
+      <version>0.22.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-mapred</artifactId>
+      <version>0.22.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.pig</groupId>
+      <artifactId>pig</artifactId>
+      <version>0.11.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>commons-logging</groupId>
+        <artifactId>commons-logging</artifactId>
+        <version>1.1.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.avro</groupId>
+        <artifactId>avro</artifactId>
+        <version>1.7.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.mahout</groupId>
+        <artifactId>mahout-core</artifactId>
+        <version>0.7</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.mahout</groupId>
+        <artifactId>mahout-math</artifactId>
+        <version>0.7</version>
+    </dependency>
+  </dependencies>
+
+</project>
+
+

@@ -1,0 +1,3 @@
+#All the mahout jars have to be included in classpath before execution of this script. 
+#Execute csvtosequenceconverter jar to convert the CSV file to sequence file.
+hadoop jar /home/cloudera/pdp/jars/csvtosequenceconverter.jar com.datareduction.CsvToSequenceConverter /user/cloudera/pdp/datasets/data_reduction/transactions_multi_dims_ssvd.csv /user/cloudera/pdp/output/data_reduction/ssvd/transactions.seq

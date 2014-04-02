@@ -1,0 +1,223 @@
+{
+  "name" : "HealthTopicsHealthTopicPrimaryInstitute",
+  "namespace" : "com.customparser.avro",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "value",
+    "type" : "string",
+    "default" : ""
+  }, {
+    "name" : "url",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  } ]
+}{
+  "name" : "HealthTopicsHealthTopicOtherLanguage",
+  "namespace" : "com.customparser.avro",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "value",
+    "type" : "string",
+    "default" : ""
+  }, {
+    "name" : "vernacularName",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  }, {
+    "name" : "url",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  } ]
+}{
+  "name" : "HealthTopicsHealthTopicRelatedTopic",
+  "namespace" : "com.customparser.avro",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "value",
+    "type" : "string",
+    "default" : ""
+  }, {
+    "name" : "url",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  }, {
+    "name" : "id",
+    "type" : [ "null", "int" ],
+    "default" : "null"
+  } ]
+}{
+  "name" : "HealthTopicsHealthTopicMeshHeadingDescriptor",
+  "namespace" : "com.customparser.avro",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "value",
+    "type" : "string",
+    "default" : ""
+  }, {
+    "name" : "id",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  } ]
+}{
+  "name" : "HealthTopicsHealthTopicMeshHeadingQualifier",
+  "namespace" : "com.customparser.avro",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "value",
+    "type" : "string",
+    "default" : ""
+  }, {
+    "name" : "id",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  } ]
+}{
+  "name" : "HealthTopicsHealthTopicMeshHeading",
+  "namespace" : "com.customparser.avro",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "descriptor",
+    "type" : "com.customparser.avro.HealthTopicsHealthTopicMeshHeadingDescriptor"
+  }, {
+    "name" : "qualifier",
+    "type" : [ "null", "com.customparser.avro.HealthTopicsHealthTopicMeshHeadingQualifier" ],
+    "default" : "null"
+  } ]
+}{
+  "name" : "HealthTopicsHealthTopicGroup",
+  "namespace" : "com.customparser.avro",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "value",
+    "type" : "string",
+    "default" : ""
+  }, {
+    "name" : "url",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  }, {
+    "name" : "id",
+    "type" : [ "null", "int" ],
+    "default" : "null"
+  } ]
+}{
+  "name" : "HealthTopicsHealthTopicLanguageMappedTopic",
+  "namespace" : "com.customparser.avro",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "value",
+    "type" : "string",
+    "default" : ""
+  }, {
+    "name" : "url",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  }, {
+    "name" : "id",
+    "type" : [ "null", "int" ],
+    "default" : "null"
+  }, {
+    "name" : "language",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  } ]
+}{
+  "name" : "HealthTopicsHealthTopic",
+  "namespace" : "com.customparser.avro",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "alsoCalled",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : "string"
+    } ],
+    "default" : "null"
+  }, {
+    "name" : "fullSummary",
+    "type" : "string",
+    "default" : ""
+  }, {
+    "name" : "group",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : "com.customparser.avro.HealthTopicsHealthTopicGroup"
+    } ],
+    "default" : "null"
+  }, {
+    "name" : "languageMappedTopic",
+    "type" : [ "null", "com.customparser.avro.HealthTopicsHealthTopicLanguageMappedTopic" ],
+    "default" : "null"
+  }, {
+    "name" : "meshHeading",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : "com.customparser.avro.HealthTopicsHealthTopicMeshHeading"
+    } ],
+    "default" : "null"
+  }, {
+    "name" : "otherLanguage",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : "com.customparser.avro.HealthTopicsHealthTopicOtherLanguage"
+    } ],
+    "default" : "null"
+  }, {
+    "name" : "primaryInstitute",
+    "type" : [ "null", "com.customparser.avro.HealthTopicsHealthTopicPrimaryInstitute" ],
+    "default" : "null"
+  }, {
+    "name" : "relatedTopic",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : "com.customparser.avro.HealthTopicsHealthTopicRelatedTopic"
+    } ],
+    "default" : "null"
+  }, {
+    "name" : "seeReference",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : "string"
+    } ],
+    "default" : "null"
+  }, {
+    "name" : "title",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  }, {
+    "name" : "url",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  }, {
+    "name" : "id",
+    "type" : [ "null", "int" ],
+    "default" : "null"
+  }, {
+    "name" : "language",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  }, {
+    "name" : "dateCreated",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  } ]
+}{
+  "name" : "HealthTopics",
+  "namespace" : "com.customparser.avro",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "healthTopic",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : "com.customparser.avro.HealthTopicsHealthTopic"
+    } ],
+    "default" : "null"
+  }, {
+    "name" : "total",
+    "type" : [ "null", "int" ],
+    "default" : "null"
+  }, {
+    "name" : "dateGenerated",
+    "type" : [ "null", "string" ],
+    "default" : "null"
+  } ]
+}
